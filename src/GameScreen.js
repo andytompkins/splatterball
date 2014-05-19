@@ -945,6 +945,11 @@ function next_level() {
 	clearInterval(clockTick);
 	clearTimeout(gameLenTimer);
 	clearTimeout(warningTimer);
+	
+	this._countdown.updateOpts({
+		color: '#000000'
+	});
+	
 	sound.stop(soundcontroller.getMusic(level));
 	
 	var mid = Math.floor(device.screen.width / 2);
