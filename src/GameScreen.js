@@ -17,7 +17,7 @@ import src.soundcontroller as soundcontroller;
 
 var __debug = false;
 
-var demo_mode = true;
+var demo_mode = false;
 
 var score = 0;
 var high_score = 30;
