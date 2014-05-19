@@ -58,7 +58,6 @@ exports = Class(ui.View, function (supr) {
 		});
 		supr(this, 'init', [opts]);
 
-		this.initBackgrounds();
 		this.build();
 	};
 	
@@ -385,9 +384,6 @@ exports = Class(ui.View, function (supr) {
 		for (i = 0; i < magazineSize; i++) {
 			this.magazine[i] = Math.floor((Math.random() * bubbleColors));
 		}
-		
-		// background
-		this.setBackground();
 		
 		// frame
 		this._frame = new ui.ImageScaleView({
@@ -1020,6 +1016,9 @@ function next_level() {
 function start_game_flow() {
 	if (__debug)
 		console.log("START GAME FLOW");
+	
+	this.initBackgrounds();
+	this.setBackground();
 	
 	countdown_secs = soundcontroller.getLevelTime(level);
 	game_length = countdown_secs * 1000;
