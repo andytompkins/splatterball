@@ -1,0 +1,47 @@
+{
+	"appID": "12345",
+	"shortName": "splatterball",
+	"title": "Splatterball World Tour",
+	"studio": {
+		"name": "WhisperSoft Studios",
+		"domain": "whispersoft.io",
+		"stagingDomain": "staging.whispersoft.io"
+	},
+	"supportedOrientations": [
+		"portrait"
+	],
+	"icons": {
+		"renderGloss": true
+	},
+	"icon": "resources/icons/icon512.png",
+	"splash": {
+		"autoHide": true,
+		"universal": "resources/splash/portrait2048.png"
+	},
+	"android": {
+		"versionCode": 1,
+		"icons": {
+			"36": "resources/icons/android36.png",
+			"48": "resources/icons/android48.png",
+			"72": "resources/icons/android72.png",
+			"96": "resources/icons/android96.png"
+		}
+	},
+	"ios": {
+		"bundleID": "splatterball",
+		"appleID": "123456789",
+		"version": "1.0.0",
+		"icons": {
+			"57": "resources/icons/ios57.png",
+			"72": "resources/icons/ios72.png",
+			"114": "resources/icons/ios114.png",
+			"144": "resources/icons/ios144.png",
+			"renderGloss": true
+		}
+	},
+	"resources": {},
+	"targets": {},
+	"groups": {},
+	"fonts": [],
+	"sdkVersion": "release-0.1.45"
+}

@@ -1,0 +1,4 @@
+build/
+sdk
+.DS_Store
+.version
