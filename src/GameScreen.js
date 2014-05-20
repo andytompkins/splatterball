@@ -1194,6 +1194,7 @@ function reset_game () {
 	
 	game_won = false;
 	level = 1;
+	bubbleColors = 3;
 	score = 0;
 	countdown_secs = game_length / 1000;
 	this._scoreboard.setText('');
